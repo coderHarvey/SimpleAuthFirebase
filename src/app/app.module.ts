@@ -16,14 +16,14 @@ import { SignupComponent } from './signup/signup.component';
 import { MembersComponent } from './members/members.component';
 import { AuthService } from './auth.service';
 import { routes } from './app.routes';
-
+//  enter your app details
 export const firebaseConfig ={
-  apiKey: "AIzaSyDBs2IZIQtb16Xzd4D0d-hyLwVnTBkFJos",
-    authDomain: "chatify-d90bf.firebaseapp.com",
-    databaseURL: "https://chatify-d90bf.firebaseio.com",
-    projectId: "chatify-d90bf",
-    storageBucket: "chatify-d90bf.appspot.com",
-    messagingSenderId: "951751377629"
+  apiKey: "",
+    authDomain: "",
+    databaseURL: "",
+    projectId: "",
+    storageBucket: "",
+    messagingSenderId: ""
 };
 
 @NgModule({
